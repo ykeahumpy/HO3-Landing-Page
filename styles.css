@@ -1,0 +1,1199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image:url(images/coffee-shopBG.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    height: 1200px;
+}
+
+
+#shop-logo{
+    width: 126px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    top: -10px;
+    border-radius: 50%;
+    background-color: rgba(245, 222, 179, 0.662);
+}
+
+.coffee-header h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 80px;
+    background-color: rgba(245, 245, 220, 0.715);
+    border-radius: 50px;
+    color: rgb(81, 38, 38);
+    font-weight: bolder;
+    position: relative;
+    left: 10px;
+    top: -8px;
+}
+
+.coffee-header h2{
+    font-family: 'Bradley Hand ITC';
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    position: relative;
+    left: 250px;
+    background-color: rgba(248, 248, 248, 0.566);
+    border-radius: 50px;
+    width: 40%;
+    top: -4px;
+}
+
+.contact-icon img{
+    height: 35px;
+    float: right;
+    position: relative;
+    left: -20px;
+    margin-bottom: 20px;
+    bottom: 440px;
+    cursor: pointer;
+}
+
+#facebook,
+#instagram,
+#twitter,
+#phone,
+#mail,
+#telegram{
+    margin-left: 10px;
+}
+
+.nav-container{
+    background-color: rgba(8, 7, 1, 0.759);
+    width: 100%;
+    position: relative;
+    bottom: -15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0.1px solid white;
+}
+
+.nav-container 
+#home-button,
+#about-button,
+#menu-button,
+#special-button,
+#event-button,
+#contact-button{
+    background-color:rgba(33, 28, 4, 0);
+    width: 9%;
+    border-style: none;
+    color: white;
+    margin-right: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    left: 150px;
+    font-weight: bolder;
+    cursor: pointer;  
+}
+
+.nav-container 
+#home-button:hover,
+#about-button:hover,
+#menu-button:hover,
+#special-button:hover,
+#event-button:hover,
+#contact-button:hover{
+    position: relative;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 9%;
+    font-weight: bolder;
+}
+
+.specials{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    text-decoration:underline;
+    z-index: 1;
+    position: relative;
+    bottom: -8px;
+    left: 620px;
+    background-color: rgba(165, 42, 42, 0.762);
+    border: 0.1px solid white;
+    padding: 5px;
+    border-radius: 6px;
+    width: 120px;
+    text-align: center;
+    height: 45px;
+}
+
+.coffee-list{
+    background-color: rgba(167, 97, 69, 0.701);
+    padding: 10px;
+    position: relative;
+    left: -40px;
+    border-radius: 6px;
+    height: 222px;
+    margin-top: 1px;
+    border: 0.1px solid white;
+    display:flex ;
+    margin-left: 70px;
+}
+
+.american-coffee{
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    height: 200px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.item1{
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 4px;
+}
+
+.caffe-macchiato {
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    border-radius: 6px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.item2{
+    height: 100px;
+    position: relative;
+    left: 4px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+.cappuccino {
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    border-radius: 6px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.item3{
+    position: relative;
+    top: 10px;
+    left: 2px;
+    height: 80px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.flat-white-coffee {
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    border-radius: 6px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.item4{
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 3px;
+}
+
+.iced-coffee {
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.item5{
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+}
+
+.latte-coffee{
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    border-radius: 6px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.item6{
+    height: 90px;
+    position: relative;
+    left: 4px ;
+    top: 10px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.american-coffee .item-name,
+.caffe-macchiato .item-name,
+.flat-white-coffee .item-name,
+.iced-coffee .item-name{
+    position: relative;
+    left: 4px;
+    top:  10px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.latte-coffee .item-name{
+    position: relative;
+    left: 4px;
+    top:  20px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.cappuccino .item-name{
+    position: relative;
+    left: 4px;
+    top:  30px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+
+.non-coffee-drinks .item-price{
+    position: relative;
+    z-index: 1;
+    left: 116px;
+    bottom: 25px;
+}
+
+.bread-products .item-price{
+    position: relative;
+    z-index: 1;
+    left: 124px;
+    bottom: 25px;
+}
+
+.american-coffee .item-price,
+.caffe-macchiato .item-price,
+.flat-white-coffee .item-price,
+.iced-coffee .item-price{
+    position: relative;
+    z-index: 1;
+    left: 115px;
+    bottom: 30px;
+}
+
+.latte-coffee .item-price{
+    position: relative;
+    z-index: 1;
+    left: 115px;
+    bottom: 20px;
+}
+
+.cappuccino .item-price{
+    position: relative;
+    z-index: 1;
+    left: 115px;
+    bottom: 10px;
+}
+
+.american-coffee .add-to-cart img,
+.caffe-macchiato .add-to-cart img,
+.cappuccino .add-to-cart img,
+.flat-white-coffee .add-to-cart img,
+.latte-coffee .add-to-cart img,
+.iced-coffee .add-to-cart img{
+    height: 50px;
+    position: relative;
+    left: 130px;
+    top: 30px;
+}
+  
+#product-container{
+    background-color: rgba(255, 255, 255, 0.382);
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 2px solid;
+    position: relative;
+    top: -500px;
+}
+
+.non-coffee-drinks{
+    background-color: rgba(167, 97, 69, 0.701);
+    padding: 10px;
+    height: 222px;
+    border-radius: 6px;
+    margin-top: 1px;
+    border: 0.1px solid white;
+    display:flex ;
+    margin-left: 70px;
+    position: relative;
+    left: -40px;
+}
+
+.non-coffee-drink-text{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    text-decoration:underline;
+    z-index: 1;
+    position: relative;
+    bottom: -8px;
+    left: 530px;
+    background-color: rgba(165, 42, 42, 0.762);
+    border: 0.1px solid white;
+    padding: 5px;
+    width: 300px;
+    border-radius: 6px;
+    text-align: center;
+    height: 45px;
+    margin-top: 10px;
+}
+
+
+.kombucha,
+.oreo-milk-shake,
+.hot-chocolate,
+.fruit-smoothie,
+.iced-tea{
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    border-radius: 6px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.matcha-latte{
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    border-radius: 6px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.matcha-latte .add-to-cart img,
+.kombucha .add-to-cart img,
+.oreo-milk-shake .add-to-cart img,
+.hot-chocolate .add-to-cart img,
+.fruit-smoothie .add-to-cart img,
+.iced-tea .add-to-cart img{
+    height: 50px;
+    position: relative;
+    left: 130px;
+    top: 30px;
+}
+
+.matcha-latte .item-name{
+    position: relative;
+    left: 4px;
+    top: 10px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.kombucha .item-name{
+    position: relative;
+    left: 4px;
+    top:  20px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.iced-tea .item-name{
+    position: relative;
+    left: 4px;
+    top:  10px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.hot-chocolate .item-name{
+    position: relative;
+    left: 4px;
+    top:  10px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.oreo-milk-shake .item-name{
+    position: relative;
+    left: 4px;
+    top:  15px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.fruit-smoothie .item-name{
+    position: relative;
+    left: 4px;
+    top:  20px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.matcha-latte .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 30px;
+}
+
+.kombucha .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 20px;
+}
+
+.oreo-milk-shake .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 25px;
+}
+
+.hot-chocolate .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 30px;
+}
+
+.fruit-smoothie .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 20px;
+}
+
+.iced-tea .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 30px;
+}
+
+.matcha-latte .item1{
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+}
+
+.kombucha .item2{
+    height: 90px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 4px;
+}
+
+.oreo-milk-shake .item3{
+    height: 95px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+    top: 1px;
+}
+
+.hot-chocolate .item4{
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+}
+
+.fruit-smoothie .item5{
+    height: 90px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 4px;
+}
+
+.iced-tea .item6{
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 35px;
+    top: 5px;
+}
+
+.bread-products{
+    background-color: rgba(167, 97, 69, 0.701);
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+    left: -40px;
+    margin-bottom: 50px;
+    height: 222px;
+    margin-top: 1px;
+    border: 0.1px solid white;
+    display:flex ;
+    margin-left: 70px;
+} 
+
+.bread-product-text{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    text-decoration:underline;
+    z-index: 1;
+    position: relative;
+    bottom: -8px;
+    border-radius: 6px;
+    left: 530px;
+    background-color: rgba(165, 42, 42, 0.762);
+    border: 0.1px solid white;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.cinnamon-buns{
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    height: 200px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.hanjuku-cheese-buns,
+.pie-slices,
+.muffins,
+.specialty-breads,
+.croissant{
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 300px;
+    height: 200px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.cinnamon-buns .add-to-cart img,
+.hanjuku-cheese-buns .add-to-cart img,
+.pie-slices .add-to-cart img,
+.muffins .add-to-cart img,
+.specialty-breads .add-to-cart img,
+.croissant .add-to-cart img{
+    height: 50px;
+    position: relative;
+    left: 130px;
+    top: 30px;
+}
+
+.cinnamon-buns .item1{
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+}
+
+.hanjuku-cheese-buns .item2{
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+}
+
+.pie-slices .item3{
+    height: 80px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+}
+
+.muffins .item4{
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+}
+
+.specialty-breads .item5{
+    height: 75px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 3px;
+    top: 20px;
+}
+
+.croissant .item6{
+    height: 90px;
+    margin-top: -50px;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+}
+
+.cinnamon-buns .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 30px;
+}
+
+.hanjuku-cheese-buns .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 30px;
+    left: 120px;
+}
+
+.pie-slices .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 15px;
+}
+
+.muffins .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 35px;
+}
+
+.specialty-breads .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 10px;
+}
+
+.croissant .item-price{
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    bottom: 25px;
+}
+
+.cinnamon-buns .item-name{
+    position: relative;
+    left: 4px;
+    top:  10px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.hanjuku-cheese-buns .item-name{
+    position: relative;
+    left: 4px;
+    top:  10px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.muffins .item-name{
+    position: relative;
+    left: 4px;
+    top:  10px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.specialty-breads .item-name{
+    position: relative;
+    left: 4px;
+    top:  35px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.croissant .item-name{
+    position: relative;
+    left: 4px;
+    top:  20px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.pie-slices .item-name{
+    position: relative;
+    left: 4px;
+    top:  30px;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: beige;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.best-seller-container{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-image: url(best-sellers/coffee-macchiato.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caffe-macchiato-text{
+    color: rgb(35, 6, 3);
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.best-seller-price{
+    position: relative;
+    top: -250px;
+    left: 350px;
+    font-size: 40px;
+    text-decoration:underline;
+    color: white;
+
+}
+
+.caffe-macchiato-{
+    background-color: rgba(234, 232, 232, 0.559);
+    height: 170px;
+    border-radius: 20px;
+    width: 250px;
+    position: relative;
+    top: 130px;
+    left: 10px;
+    border: 2px solid black;
+}
+
+.best-seller-text{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    text-decoration:underline;
+    z-index: 1;
+    position: relative;
+    bottom: -20px;
+    left: 35px;
+    border-radius: 100px;
+    background-color: rgb(165, 42, 42);
+    border: 0.1px solid white;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.order-button button{
+    border-radius: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    z-index: 1;
+    width: 100px;
+    position: relative;
+    top: -25px;
+    left: 400px;
+}
+
+.order-button button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.mix-and-match-combo-container{
+    height: 400px;
+    width: 57%;
+    background-color: rgba(234, 232, 232, 0.559);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    left: 600px;
+    top: -495px;
+}
+
+.mix-and-match-combo-container:hover{
+    background-color: rgba(0, 0, 0, 0.559);
+    color: white;
+    border: 2px solid white;
+}
+
+#hot-choco-croissant{
+    height: 210px;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    padding: 10px;
+}
+
+#mix{
+    height: 210px;
+    border-radius: 20px;
+    position: relative;
+    bottom: -160px;
+    left: 120px;
+    padding: 10px;
+}
+
+#order-button button{
+    border-radius: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    z-index: 1;
+    width: 100px;
+    position: relative;
+    top: -515px;
+    left: 800px;
+}
+
+#order-button button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.mix-and-match-combo-text{
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -150px;
+    right: -200px;
+}
+
+.mix-match-text{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    text-decoration:underline;
+    z-index: 1;
+    position: relative;
+    top: -472px;
+    left: 950px;
+    border-radius: 100px;
+    background-color: rgb(165, 42, 42);
+    border: 0.1px solid white;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.website-footer{
+    background-color: rgba(245, 245, 245, 0.742);
+    width: 1375px;
+    height: 180px;
+    position: relative;
+    top: -450px;
+    padding: 30px;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.about-us{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+#about-us{
+    margin-right: 70px;
+    margin-left: 40px;
+}
+#about-us button{
+    color: black;
+    font-weight: bolder;
+    background-color: rgba(245, 245, 245, 0);
+    border: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+
+#terms-and-conditions{
+    margin-right: 70px;
+}
+
+#terms-and-conditions button{
+    color: black;
+    font-weight: bolder;
+    background-color: rgba(245, 245, 245, 0);
+    border: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+
+.terms-and-conditions{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+#feedback-area{
+    margin-right: 70px;
+}
+
+#feedback-area button{
+    color: black;
+    font-weight: bolder;
+    background-color: rgba(245, 245, 245, 0);
+    border: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+#stay-connected{
+    position: relative;
+    right: 40px;
+
+}
+
+#feedback-area textarea{
+    width: 200px;
+    height: 200px;
+    resize: none;
+    overflow-y: scroll;
+}
+
+#last-line{
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.feedback{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+#label-feedback{
+    position: relative;
+    top: -50px;
+    font-weight: bold;
+}
+
+.feedback p{
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.form-group button{
+    padding: 5px;
+    margin-top: 10px;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
+
+.form-group button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid ;
+}
+
+.cart-logo{
+    height: 50px;
+    position: relative;
+    left: 620px;
+    cursor: pointer;
+}
+
+.cart{
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -110px;
+    left: 1330px;
+    z-index: 1;
+}
+
+.cart p{
+    position: relative;
+    top: -55px;
+    left: 11px;
+}
+
+.cart #cart-img{
+    height: 50px;
+    position: relative;
+    top: 10px;
+    right: 40px;
+    z-index: 1;
+}
+
+.cart-items {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 1;
+    left: 60px;
+    top: -10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 1590px;
+    text-align: center;
+    
+  }
+  .cart-items.show {
+    display: block;
+  }
+
+#cart-items{
+    position: absolute;
+    top: 20px;
+}
+
+.cart-item{
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+
+#remove-selected{
+    width: 100px;
+    position: relative;
+    right: 60px;
+    color: white;
+    background-color: red;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#remove-selected:hover{
+    background-color: black;
+    color: red;
+    border: 2px solid white;
+}
+

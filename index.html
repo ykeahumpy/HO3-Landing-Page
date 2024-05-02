@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bean Bliss</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/coffee-icon.png"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <img id="shop-logo" src="images/coffee-logo.png" alt="" />
+    <div class="coffee-header">
+      <h1>Bean Bliss</h1>
+
+      <h2>Smell Rich and Warm Aroma</h2>
+    </div>
+    <div class="cart">
+      <img id="cart-img" src="images/shopping-cart.png" alt="Cart">
+        <p class="cart-count">0</p>
+        <div class="cart-items">
+        </div>
+        <button id="remove-selected">Clear Cart</button>
+  </div>
+    <div class="nav-container">
+      <a href="index.html"><button id="home-button">Home</button></a>
+      <a href="#about-us"><button id="about-button">About</button></a>
+      <a href="#product-container"><button id="menu-button">Menu</button></a>
+      <a href="#specials"><button id="special-button">Specials</button></a>
+      <a href="#best-seller-container"
+        ><button id="event-button">Best Seller</button></a
+      >
+      <a href="#contact-icon"><button id="contact-button">Contacts</button></a>
+    </div>
+    <div class="best-seller-text"><p>Best Seller</p></div>
+    <div class="best-seller-container" id="best-seller-container">
+      <div class="caffe-macchiato-">
+        <p class="caffe-macchiato-text">
+          Indulge in the art of flavor with our Caffè Macchiato-where every sip
+          is a masterpiece!
+        </p>
+      </div>
+    </div>
+    <div class="order-button">
+      <button>Order Now</button>
+    </div>
+    <div class="mix-match-text"><p>Mix and Match</p></div>
+    <div class="mix-and-match-combo-container">
+      <div class="mix-and-match-combo">
+        <img
+          id="hot-choco-croissant"
+          src="best-sellers/mix.jpg"
+          alt="Hot Chocolate with Croissant"
+        />
+        <img
+          id="mix"
+          src="best-sellers/hot-choco-croissant.jpg"
+          alt="Mega Offer"
+        />
+        <p class="mix-and-match-combo-text">
+          Unleash the power of choice with our<br />
+          Mix and Match Combo – <br />Your taste, your combo!
+        </p>
+      </div>
+    </div>
+    <div id="order-button">
+      <button>Order Now</button>
+    </div>
+
+    <div id="product-container">
+      <div class="specials" id="specials">
+        <p>Specials</p>
+      </div>
+      <div class="coffee-list" id="cart">
+        <div class="american-coffee">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="coffee-item-icons/cafe-americano.jpg"
+            class="item1"
+            alt="Coffee product"
+          />
+          <div>
+            <p class="item-name">American <br />&nbsp;&nbsp;Coffee</p>
+            <p class="item-price">&#8369;150.00</p>
+          </div>
+        </div>
+        <div class="caffe-macchiato">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="coffee-item-icons/caffe-macchiato.jpg"
+            class="item2"
+            alt="Coffee product"
+          />
+          <p class="item-name">&nbsp;&nbsp;&nbsp;Caffe <br />Macchiato</p>
+          <p class="item-price">&#8369;150.00</p>
+        </div>
+        <div class="cappuccino">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="coffee-item-icons/cappuccino-coffee.jpg"
+            class="item3"
+            alt="Coffee product"
+          />
+          <p class="item-name">
+            Cappuccino <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;Coffee
+          </p>
+          <p class="item-price">&#8369;150.00</p>
+        </div>
+        <div class="flat-white-coffee">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="coffee-item-icons/flat-white-coffee.JPG"
+            class="item4"
+            alt="Coffee product"
+          />
+          <p class="item-name">Flat White <br />&nbsp;&nbsp;Coffee</p>
+          <p class="item-price">&#8369;150.00</p>
+        </div>
+        <div class="iced-coffee">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="coffee-item-icons/iced-coffee.jpg"
+            class="item5"
+            alt="Coffee product"
+          />
+          <p class="item-name">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iced <br />&nbsp;&nbsp;&nbsp;Coffee
+          </p>
+          <p class="item-price">&#8369;150.00</p>
+        </div>
+        <div class="latte-coffee">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="coffee-item-icons/coffee-latte.png"
+            class="item6"
+            alt="Coffee product"
+          />
+          <p class="item-name">
+            &nbsp;&nbsp;&nbsp;&nbsp;Latte <br />&nbsp;&nbsp;&nbsp;Coffee
+          </p>
+          <p class="item-price">&#8369;150.00</p>
+        </div>
+      </div>
+      
+
+      <div class="non-coffee-drink-text">
+        <p>Non-Coffee Drinks</p>
+      </div>
+      <div class="non-coffee-drinks">
+        <div class="matcha-latte">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="non-coffee-drinks/matcha_latte.jpg"
+            class="item1"
+            alt="Non-Coffee Drink product"
+          />
+          <p class="item-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matcha <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latte</p>
+          <p class="item-price">&#8369;130.00</p>
+        </div>
+        <div class="kombucha">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="non-coffee-drinks/kombuchaa.png"
+            class="item2"
+            alt="Non-Coffee Drink product"
+          />
+          <p class="item-name">Kombucha <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tea</p>
+          <p class="item-price">&#8369;130.00</p>
+        </div>
+        <div class="oreo-milk-shake">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="non-coffee-drinks/oreo-milkshake.jpg"
+            class="item3"
+            alt="Non-Coffee Drink product"
+          />
+          <p class="item-name">&nbsp;&nbsp;&nbsp;&nbsp;Oreo <br>Milk Shake</p>
+          <p class="item-price">&#8369;130.00</p>
+        </div>
+        <div class="hot-chocolate">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="non-coffee-drinks/hotchocolate.jpg"
+            class="item4"
+            alt="Non-Coffee Drink product"
+          />
+          <p class="item-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hot <br>&nbsp;Chocolate</p>
+          <p class="item-price">&#8369;130.00</p>
+        </div>
+        <div class="fruit-smoothie">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="non-coffee-drinks/fruit-smoothie.jpg"
+            class="item5"
+            alt="Non-Coffee Drink product"
+          />
+          <p class="item-name">&nbsp;&nbsp;&nbsp;Fruit<br>Smoothie</p>
+          <p class="item-price">&#8369;130.00</p>
+        </div>
+        <div class="iced-tea">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="non-coffee-drinks/iced_tea.jpg"
+            class="item6"
+            alt="Non-Coffee Drink product"
+          />
+          <p class="item-name" >&nbsp;&nbsp;&nbsp;&nbsp;Iced <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tea</p>
+          <p class="item-price">&#8369;130.00</p>
+        </div>
+      </div>
+
+      <div class="bread-product-text">
+        <p>Bread Products</p>
+      </div>
+      <div class="bread-products">
+        <div class="cinnamon-buns">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="bread-items/cinnamon.jpg"
+            class="item1"
+            alt="Bread product"
+          />
+          <p class="item-name">Cinnamon <br>&nbsp;&nbsp;&nbsp;&nbsp;Buns</p>
+          <p class="item-price">&#8369;70.00</p>
+        </div>
+        <div class="hanjuku-cheese-buns">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="bread-items/hanjuku-cheese-buns.jpg"
+            class="item2"
+            alt="Bread product"
+          />
+          <p class="item-name">&nbsp;&nbsp;&nbsp;Hanjuku <br>Cheese Buns</p>
+          <p class="item-price">&#8369;70.00</p>
+        </div>
+        <div class="pie-slices">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="bread-items/pie-slice.jpg"
+            class="item3"
+            alt="Bread product"
+          />
+          <p class="item-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pie<br> &nbsp;&nbsp;&nbsp;&nbsp;Slices</p>
+          <p class="item-price">&#8369;70.00</p>
+        </div>
+        <div class="muffins">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="bread-items/muffins.jpg"
+            class="item4"
+            alt="Bread product"
+          />
+          <p class="item-name">Muffins</p>
+          <p class="item-price">&#8369;70.00</p>
+        </div>
+        <div class="specialty-breads">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="bread-items/specialty-breads.jpg"
+            class="item5"
+            alt="Bread product"
+          />
+          <p class="item-name">&nbsp;&nbsp;Specialty<br>&nbsp;&nbsp;&nbsp; Breads</p>
+          <p class="item-price">&#8369;70.00</p>
+        </div>
+        <div class="croissant">
+          <div class="add-to-cart">
+            <a href="#"><img src="images/basket.png" alt="Basket icon" /></a>
+          </div>
+          <img
+            src="bread-items/croissantt.jpg"
+            class="item6"
+            alt="Bread product"
+          />
+          <p class="item-name">Croissant</p>
+          <p class="item-price">&#8369;70.00</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="website-footer">
+      <section id="about-us">
+        <a href="about-us.html"><button>About&nbsp;us</button></a>
+      </section>
+
+      <section id="terms-and-conditions">
+        <a href="terms-and-conditions.html"><button>T&C</button></a>
+      </section>
+
+      <section id="feedback-area">
+        <a href="feedback.html"><button>Submit&nbsp;Feedback</button></a>
+        
+      </section>
+
+      <section id="stay-connected">
+        <h2>Stay Connected</h2>
+        <p>
+          Join our community and stay in touch with the latest from Bean Bliss.
+          Follow us on social media for updates, special offers, and more.
+        </p>
+      </section>
+    </div>
+    <div class="contact-icon" id="contact-icon">
+      <a
+      href="https://www.facebook.com/gabrielian.ykeaaa"
+      rel="noopener"
+      target="_blank"
+      ><img
+        id="facebook"
+        src="images/facebook (1).png"
+        alt="Facebook Contact"
+    /></a>
+    <a
+      href="https://www.instagram.com/izzya_ian?igsh=aG8xbjd6aDUxeGN4"
+      rel="noopener"
+      target="_blank"
+      ><img
+        id="instagram"
+        src="images/instagram.png"
+        alt="Instagram Contact"
+    /></a>
+    <a
+      href="https://twitter.com/popsss10448556"
+      rel="noopener"
+      target="_blank"
+      ><img id="twitter" src="images/twitter.png" alt="Twitter Contact"
+    /></a>
+    <a href="tel:+639765439951"
+      ><img id="phone" src="images/phone.png" alt="Phone Contact"
+    /></a>
+    <a href="mailto:iangabrielmustera@gmail.com"
+      ><img id="mail" src="images/mail.png" alt="Email Contact"
+    /></a>
+    <a href="https://t.me/ykea_iannn" rel="noopener" target="_blank"
+      ><img id="telegram" src="images/telegram.png" alt="Telegram Contact"
+    /></a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
